@@ -1,0 +1,75 @@
+body {
+            background-color: #3e2723; /* Deep Espresso Brown */
+            color: #efebe9;           /* Soft off-white */
+            font-family: 'Georgia', serif; 
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 10px;
+        }
+
+        nav {
+            border-bottom: 1px solid #5d4037;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+
+        nav a {
+            color: #d7ccc8; /* Light Tan */
+            margin-right: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+        }
+
+        .profile-section { 
+            display: flex; 
+            align-items: center; 
+            gap: 20px; 
+            margin-top: 20px;
+        }
+
+        .profile-text { flex: 2; }
+
+        .profile-pic { 
+            flex: 1; 
+            border: 1px solid #5d4037; 
+            background: #4e342e; 
+            text-align: center; 
+            padding: 20px; 
+        }
+        
+        h1 { color: #ffffff; }
+        hr { border: 0; border-top: 1px solid #5d4037; }
+
+        /* Styles all links that are NOT in the navigation bar */
+        a {
+            color: #b39ddb; /* Dusty Lavender */
+            text-decoration: none; /* Removes the default underline */
+            font-style: italic; /* Makes links look a bit more distinct */
+        }
+
+        a:hover {
+            color: #d1c4e9; /* Lightens when you hover over it */
+            text-decoration: underline; /* Adds underline back on hover */
+        }
+
+        /* Keeps your navigation links looking like Tan, as they were */
+        nav a {
+            color: #d7ccc8; 
+            font-style: normal;
+        }
+
+        /* Only adds spacing to the research papers */
+        .publication-list li {
+            margin-bottom: 20px;
+        }
+
+        /* All other list items (like on the Teaching page) 
+        will use the default tight spacing. */
+        li {
+            margin-bottom: 3px; 
+        }
