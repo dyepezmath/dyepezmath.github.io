@@ -76,6 +76,11 @@ body {
 
         /* Responsive adjustments for mobile phones */
         @media (max-width: 600px) {
+        body {
+            margin: 20px auto; /* Reduces top/bottom margin on small screens */
+            padding: 0 15px;   /* Adds a tiny bit more side-padding so text doesn't hit the screen edge */
+        }
+        
         .profile-section {
             flex-direction: column; /* Stacks the photo on top of the text */
             text-align: center;      /* Centers the text for a better mobile look */
