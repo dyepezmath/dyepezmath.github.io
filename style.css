@@ -65,7 +65,7 @@ body {
 
         /* Only adds spacing to the research papers */
         .publication-list li {
-            margin-bottom: 10px;
+            margin-bottom: 9px;
         }
 
         /* All other list items (like on the Teaching page) 
